@@ -1,0 +1,56 @@
+/* customized navigator*/
+
+.navbar,.navbar-default {
+  background-color: #0E1449;
+  padding: 10px 0;
+  font-size:2.25em;
+  border-bottom: 4px solid #ee0;
+}
+
+.navbar-brand {
+  font-size:4rem;
+  color:#eeeeee !important;
+}
+
+.navbar-brand:hover {
+  color:#42f46b !important;
+}
+
+ul.nav li.page-scroll a {
+  color: #42f46b;
+}
+
+ul.nav li.page-scroll a:hover {
+  color: #0e1449;
+  background-color: #42f46b;
+}
+
+ul.nav li.page-scroll.active a {
+  background-color:#42f46b;
+  color:#0e1449;
+}
+
+/*HEADER SECTION */
+
+header img[alt="itchakhun-picture"] {
+  max-width:30%;
+}
+
+#top-page {
+  padding-top: 40px;
+}
+
+/*ABOUT section*/
+
+#about p.container {
+  padding-left:40px;
+  padding-right:40px;
+  font-size:3rem;
+}
+
+hr {
+  border:none;
+  border-bottom:5px solid;
+  max-width:500px;
+  margin: 30px auto 25px;
+}
