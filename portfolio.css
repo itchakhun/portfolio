@@ -105,3 +105,37 @@ hr {
     column-count:         1;
   }
 }
+
+.btn-social {
+  border-color: #222;
+}
+
+.btn-social i.fa {
+  color:#222;
+}
+
+.btn-social:hover {
+  background-color: #222;
+  border-color: #eee;
+}
+
+.btn-social:hover,
+.btn-social:focus,
+.btn-social:active {
+  border-color:#666;
+  background-color:black;
+}
+.btn-social i.fa:hover,
+.btn-social i.fa:focus,
+.btn-social i.fa:active {
+  background-color:black;
+  color:white;
+}
+/*footer*/
+
+footer{
+  box-shadow:0 3px 8px #333;
+  border-radius: 5px 5px 0 0;
+  padding:10px 0;
+  background-color:#333333;
+}
